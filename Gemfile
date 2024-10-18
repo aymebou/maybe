@@ -76,3 +76,12 @@ group :test do
   gem "climate_control"
   gem "simplecov", require: false
 end
+
+group :development do
+  gem "capistrano", "~> 3.16"
+  gem "capistrano-rails", "~> 1.6"
+  gem "capistrano-rbenv", "~> 2.2"
+  gem "capistrano-passenger", "~> 0.2.1"
+  gem "bcrypt_pbkdf"
+  gem "ed25519"
+end
